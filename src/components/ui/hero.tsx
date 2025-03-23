@@ -22,7 +22,7 @@ export default function Hero() {
                 the door to the world of knowledge.
               </p>
               <p className="text-muted-foreground mb-8">
-                Start your learning journey today with Edudu to become an outstanding
+                Start your learning journey today with Aakriti Learning Curve to become an outstanding
                 student in our learning community.
               </p>
               <Button size="lg" className="rounded-full">

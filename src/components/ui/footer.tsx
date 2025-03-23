@@ -56,7 +56,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-6">
 
-              <span className="text-2xl font-bold">🐝 Edudu</span>
+              <span className="text-2xl font-bold">Aakriti Learning Curve</span>
 
             </Link>
             <div className="flex space-x-4">
@@ -92,8 +92,8 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t">
           <div className="text-sm text-gray-600">
-            <p>©2020 Edudu.co</p>
-            <p>Edudu is a registered Trademark of Edudu.co</p>
+            <p>©2020 Aakriti Learning Curve.co</p>
+            <p>Aakriti Learning Curve is a registered Trademark of Aakriti Learning Curve.co</p>
           </div>
         </div>
       </div>

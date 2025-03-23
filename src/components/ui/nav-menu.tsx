@@ -8,10 +8,10 @@ export default function NavMenu() {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    { label: "Course", href: "/course" },
-    { label: "Teacher", href: "/teacher" },
-    { label: "How to use", href: "/how-to-use" },
-    { label: "About Us", href: "/about" }
+    { label: "Course", href: "#course" },
+    // { label: "Teacher", href: "/teacher" },
+    // { label: "How to use", href: "/how-to-use" },
+    // { label: "About Us", href: "#about" }
   ];
 
   return (
@@ -19,7 +19,7 @@ export default function NavMenu() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-bold">🐝 Edudu</span>
+            <span className="text-2xl font-bold">Aakriti Learning Curve</span>
           </Link>
 
           {/* Desktop Menu */}
@@ -29,8 +29,8 @@ export default function NavMenu() {
                 {item.label}
               </Link>
             ))}
-            <Button variant="default">Sign up</Button>
-            <Button variant="outline">Log in</Button>
+           {/* <Button variant="default">Sign up</Button>  */}
+            <Button variant="outline"><a href="#contact_us">Log in</a> </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -57,9 +57,10 @@ export default function NavMenu() {
               <Button className="w-full" variant="default">
                 Sign up
               </Button>
-              <Button className="w-full" variant="outline">
-                Log in
+            
+              <Button className="w-full" variant="outline"><a href="#contact_us">Log in</a>
               </Button>
+            
             </div>
           </div>
         )}
