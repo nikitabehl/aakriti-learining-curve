@@ -212,11 +212,11 @@ export default function Home() {
         </motion.div>
 
         <div className="relative max-w-4xl mx-auto mb-8 rounded-lg overflow-hidden">
-        <Image src={img7}
+        {/* <Image src={img7}
               width={500}
               height={500}
               alt="Picture7"
-            />
+            /> */}
          
           <div className="absolute bottom-4 right-4">
             <div className="flex gap-2">
